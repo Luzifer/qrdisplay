@@ -58,6 +58,12 @@ input {
   width: 256px;
 }
 
+#download {
+  font-size: 0.9em;
+  text-align: center;
+  margin: 0.5em;
+}
+
 #footer {
   border-top: 1px dotted #eee;
   color: rgba(204, 204, 204, 0.8);

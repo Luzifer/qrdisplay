@@ -10,6 +10,9 @@
       $('textarea').val(text);
       return generateQRCode();
     });
+    $('a', '#download').bind('click', function() {
+      return window.location.href = $('canvas', '#qrarea')[0].toDataURL('image/png').replace('image/png', 'image/octet-stream');
+    });
     if (window.location.hash) $(window).trigger('hashchange');
     return generateQRCode();
   });
