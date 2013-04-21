@@ -1,0 +1,74 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+* {
+  font-family: "Open Sans";
+  font-size: 14px;
+  outline: none;
+}
+
+body{
+  background-color: #22252a;
+  color: #eee;
+}
+
+#container {
+  margin: 10px auto;
+  width: 900px;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  padding: 20px;
+}
+
+h1 {
+  color: #cd5;
+  font-size: 3em;
+  text-align: center;
+  margin: 0 0 1.5em 0;
+}
+
+#infield {
+  border-top: 1px dotted #eee;
+  border-bottom: 1px dotted #eee;
+  margin-bottom: 1em;
+}
+
+textarea {
+  background-color: rgba(255, 255, 255, 0.07);
+  border: none;
+  color: #eee;
+  padding: 10px;
+  width: 880px;
+}
+
+input {
+  background-color: rgba(255, 255, 255, 0.07);
+  border: none;
+  color: #eee;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 350px;
+  width: 200px;
+}
+
+#qrarea {
+  border: 10px solid #fff;
+  margin-left: 322px;
+  height: 256px;
+  overflow: hidden;
+  width: 256px;
+}
+
+#footer {
+  border-top: 1px dotted #eee;
+  color: rgba(204, 204, 204, 0.8);
+  font-size: 0.7em;
+  margin-top: 1em;
+  padding: 10px;
+  text-align: center;
+}
+
+a, a:active, a:visited, a:hover {
+  color: rgba(204, 204, 204, 0.8);
+  font-size: 1em;
+}
+
