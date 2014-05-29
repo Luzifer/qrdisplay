@@ -52,10 +52,10 @@ input {
 
 #qrarea {
   border: 10px solid #fff;
-  margin-left: 322px;
-  height: 256px;
+  margin-left: 194px;
+  height: 512px;
   overflow: hidden;
-  width: 256px;
+  width: 512px;
 }
 
 #download {

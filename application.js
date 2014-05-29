@@ -24,7 +24,11 @@
     var text;
     text = $('textarea').val();
     $('#qrarea').empty();
-    return $('#qrarea').qrcode(text);
+    return $('#qrarea').qrcode({
+      text: text,
+      width: 512,
+      height: 512
+    });
   };
 
 }).call(this);

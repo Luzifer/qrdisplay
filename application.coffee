@@ -15,4 +15,8 @@ $ ->
 generateQRCode = ->
   text = $('textarea').val()
   $('#qrarea').empty()
-  $('#qrarea').qrcode(text)
+  $('#qrarea').qrcode
+    text: text
+    width: 512
+    height: 512
+
